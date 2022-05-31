@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Poppins';
+}
+.modal-dialog {
+    background: #fff !important;
+    max-width: 62% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    position: relative;
+    width: auto;
+    pointer-events: none;
+}
+
+.modal-box{
+    background-color: rgb(255, 255, 255);
+    padding: 64px;
+}
+
+
+.modal-img {
+    width: 100%;
+}
+
+.model-date {
+    font-weight: 500;
+    font-size: 24px !important;
+    color: #3F3F3F !important;
+    margin-top: 24px !important;
+}
+
+.model-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #3F3F3F;
+}
+
+.model-dis {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+    color: #000000;
+    margin-top: 24px;
+}
