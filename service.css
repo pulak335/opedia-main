@@ -33,7 +33,7 @@ body{
         width: 98%;
     }
     .service-blog-1 h3{
-        font-size: 32px;
+        font-size: 26px;
         text-align: center;
     }
     .service-blog-1 p {
@@ -42,13 +42,13 @@ body{
     }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1023px) {
     .container-cos {
-        width: 98%;
+        width: 95%;
     }
 
     .service-blog-1 h3 {
-        font-size: 46px;
+        font-size: 30px;
         text-align: right;
     }
 
@@ -64,7 +64,7 @@ body{
 .service-blog-2{
     margin-top: 100px;
 }
-.service-blog-2 h1{
+.service-blog-2 h2{
     font-weight: 700;
     font-size: 40px;
     background: linear-gradient(91.57deg, #0057FF 20.67%, #39C1DF 34.12%);
@@ -93,7 +93,7 @@ body{
 
 @media (min-width:300px) and (max-width:767px) {
     
-        .service-blog-2 h1 {
+        .service-blog-2 h2 {
             text-align: center;
             font-size: 20px;
         }
@@ -116,16 +116,14 @@ body{
         }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
-            .service-blog-2 h1 {
-                    text-align: center;
-                    font-size:32px;
+@media (min-width:768px) and (max-width:1023px) {
+                .service-blog-2 h2 {
+                    font-size: 30px;
                 }
-            
-                .row-ser {
+                    .row-ser {
                     margin-top: 45px !important;
                 }
-            
+
                 .service-blog-img {
                     width: 95%;
                     height: 330px;
@@ -177,32 +175,31 @@ body{
 
     .service-blog-3-bg p {
         padding: 20px;
-        font-size: 18px;
+        font-size: 16px;
         color: #3F3F3F;
         line-height: 25px;
     }
 
     .expertise {
-        font-size: 26px;
+        font-size: 20px;
         line-height: 30px;
     }
 }
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1023px){
     .service-blog-3-bg {
-            background: none;
             width: 100%;
         }
     
         .service-blog-3-bg p {
-            padding: 20px;
-            font-size: 22px;
-            color: #3F3F3F;
+            padding: 67px;
+            font-size: 20px;
+            color: #ffffff;
             line-height: 25px;
         }
     
         .expertise {
-            font-size: 32px;
+            font-size: 30px;
             line-height: 30px;
         }
 }
@@ -210,7 +207,7 @@ body{
 .service-blog-4{
     margin-top: 100px;
 }
-.service-blog-4 h1{
+.service-blog-4 h2{
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -228,20 +225,19 @@ body{
     margin-top: 32px;
 }
 @media (min-width:300px) and (max-width:767px){
-.service-blog-4 h1 {
-        font-size: 20px;
-        line-height: 25px;
-        margin-top: 250px
-    }
+.service-blog-4 h2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 250px;
+}
 
     .service-blog-4 p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
-@media (min-width:768px) and (max-width:1024px){
-.service-blog-4 h1 {
+@media (min-width:768px) and (max-width:1023px){
+.service-blog-4 h2 {
         font-size: 30px;
-        line-height: 25px;
         margin-top: 100px;
     }
 
@@ -256,7 +252,7 @@ body{
 .sp-box-service{
     margin-top: 40PX;
 }
-.sp-box-service h1{
+.sp-box-service h5{
     font-weight: 700;
     text-align: center;
     font-size: 32px;
@@ -273,23 +269,55 @@ body{
 }
 
 @media (min-width:300px) and (max-width:767px) {
-    .sp-box-service h1 {
-            font-size: 32px;
+    .sp-box-service h5 {
+            font-size: 16px;
         }
     
         .sp-box-service p {
-            margin-top: 16px;
-            font-size: 16px;
-        }
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+}
 }
 
-@media (min-width:768px) and (max-width:1024px) {
-        .sp-box-service h1 {
-                font-size: 32px;
+@media (min-width:768px) and (max-width:1023px) {
+        .sp-box-service h5 {
+                font-size: 28px;
             }
         
             .sp-box-service p {
                 margin-top: 16px;
-                font-size: 20px;
+                font-size: 16px;
+                line-height: 22px;
             }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+    .container-cos {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .service-blog-1 h3{
+        font-size: 56px;
+    }
+    .service-blog-3-bg {
+        background: url(./images/error-bg.png);
+        width: 100%;
+        height: 360px;
+    }
+    .service-blog-3-bg p{
+        padding: 55px;
+    }
+    .service-blog-img-text{
+        padding-left: 90px !important;
+    }
+    .service-blog-img-text p{
+        font-size: 16px;
+    }
+}
+@media (min-width:1024px) and (max-width:1280px) {
+    .service-blog-3-bg p{
+        font-size: 16px;
+        padding: 75px;
+    }
 }
